@@ -2,7 +2,7 @@
 
 set -Eeuo pipefail
 
-VERSION="2.11.0"
+VERSION="v2.11.0"
 REPO="getibrasil/TacticalRMM"
 INSTALL_PATH="/usr/local/bin/rmmagent"
 SERVICE_PATH="/etc/systemd/system/tacticalagent.service"
