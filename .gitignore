@@ -1,0 +1,38 @@
+# Tactical RMM local data
+/etc/tacticalagent/
+/var/log/tacticalagent.log
+
+# Agent configuration / secrets
+*.env
+.env
+*.token
+*.secret
+*credentials*
+*credential*
+
+# Local binaries/build artifacts
+dist/
+build/
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
